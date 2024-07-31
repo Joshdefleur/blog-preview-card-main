@@ -13,7 +13,7 @@ body{
 
 
 p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 h2{
@@ -30,7 +30,7 @@ h2{
     box-shadow: 8px 8px;
     border-style: solid;
     border-width: 1px;
-    max-width: 15rem;
+    max-width: 16rem;
 }
 
 .content{
@@ -118,8 +118,11 @@ h2{
 }
 
 
-@media(min-width: 399px) and (max-width: 426px){
+@media(min-width: 375px) and (max-width: 426px){
     
+    .container{
+        max-width: 18rem;
+    }
     
     p{
         font-size: 0.9rem;
@@ -140,84 +143,72 @@ h2{
 
 
 @media(min-width: 427px) and (max-width: 504px){
+    
+    .container{
+        max-width: 21rem;
+    }
+    
     p{
-        font-size: 0.95rem;
+        font-size: 1.05rem;
     }
 
     .publishw{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     h2{
-        font-size: 1.35rem;
+        font-size: 1.6rem;
     }
 
     .learning{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
 @media(min-width: 505px) and (max-width: 585px){
-    /*.container{
-        width: 60%;
-    }*/
 
+    .container{
+        max-width: 21rem;
+    }
+    
     p{
-        font-size: 0.952rem;
+        font-size: 1.05rem;
     }
 
     .publishw{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     h2{
-        font-size: 1.35rem;
+        font-size: 1.6rem;
     }
 
     .learning{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
+
 }
 
 @media(min-width: 586px) and (max-width: 655px){
-    /*.container{
-        width: 44%;
-    }*/
 
-    @media(min-width: 630px) and (max-width: 651px){
-        p{
-            font-size: 0.85rem;
-        }
-
-        h2{
-            font-size: 1.3rem;
-        }
-
-        .publishw{
-            font-size: 0.75rem;
-        }
-
-        .learning{
-            font-size: 0.75rem;
-        }
+    .container{
+        max-width: 21rem;
+    }
+    
+    p{
+        font-size: 1.05rem;
     }
 
-    @media(min-width: 652px) and (max-width: 655px){
-        p{
-            font-size: 0.9rem;
-        }
+    .publishw{
+        font-size: 1rem;
+    }
 
-        h2{
-            font-size: 1.35rem;
-        }
+    h2{
+        font-size: 1.6rem;
+    }
 
-        .publishw{
-            font-size: 0.8rem;
-        }
-
-        .learning{
-            font-size: 0.8rem;
-        }
+    .learning{
+        font-size: 1rem;
     }
 }
 
