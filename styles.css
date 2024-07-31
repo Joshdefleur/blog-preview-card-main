@@ -216,7 +216,7 @@ a:hover{
 
 @media(min-width: 656px) and (max-width: 1022px){
     .container{
-        max-width: 21rem;
+        max-width: 23rem;
     }
     
     p{
@@ -276,7 +276,7 @@ a:hover{
     }
 
     h2{
-        font-size: 1.75rem;
+        font-size: 1.8rem;
     }
 
     .learning{
