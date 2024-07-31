@@ -212,10 +212,72 @@ h2{
     }
 }
 
+@media(min-width: 656px) and (max-width: 1022px){
+    .container{
+        max-width: 21rem;
+    }
+    
+    p{
+        font-size: 1.05rem;
+    }
+
+    .publishw{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    .learning{
+        font-size: 1rem;
+    }
+}
 
 
-@media(min-width: 1023px) and (max-width: 1201px){
-    /*.container{
-        width: 25%
-    }*/
+
+@media(min-width: 1023px) and (max-width: 1200px){
+ 
+    .container{
+        max-width: 21rem;
+    }
+    
+    p{
+        font-size: 1.05rem;
+    }
+
+    .publishw{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    .learning{
+        font-size: 1rem;
+    }
+}
+
+
+@media(min-width: 1201px){
+    .container{
+        max-width: 24rem;
+    }
+    
+    p{
+        font-size: 1.2rem;
+    }
+
+    .publishw{
+        font-size: 1.15rem;
+    }
+
+    h2{
+        font-size: 1.75rem;
+    }
+
+    .learning{
+        font-size: 1.15rem;
+    }
 }
