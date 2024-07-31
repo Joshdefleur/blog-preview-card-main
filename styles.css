@@ -13,7 +13,7 @@ body{
 
 
 p{
-    font-size: 0.3rem;
+    font-size: 0.9rem;
 }
 
 h2{
@@ -26,7 +26,6 @@ h2{
     justify-content: center;
     background-color: white;
     padding: 20px;
-    /*width: 72%;*/
     border-radius: 20px;
     box-shadow: 8px 8px;
     border-style: solid;
